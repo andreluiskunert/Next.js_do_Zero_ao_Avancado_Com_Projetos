@@ -1,0 +1,117 @@
+Seja bem vindo ao curso completo de Next.
+
+Nesse curso você vai aprender desde a instalação do mais absoluto básico recurso até a criação de projetos
+
+completos com next JS.
+
+O Next é uma ferramenta que está muito em alta hoje em dia, por isso eu tomei cuidado de fazer um curso
+
+que tem realmente o que é utilizado na indústria de software para aprender aqui e tirar esses conhecimentos
+
+e utilizar direto na empresa que trabalha ou vai trabalhar criando os projetos futuros em next JS ou
+
+atualizando os projetos que já existem lá, conseguindo contribuir de verdade e com propriedade para
+
+também poder dar a sua opinião sobre os futuros recursos que vão ser desenvolvidos no projeto.
+
+Eu quero te formar como um desenvolvedor next completo.
+
+Esse curso é realmente muito abrangente.
+
+Eu coloquei nele diversas ferramentas que tu vai utilizar no ecossistema do Next JS, como The Wind,
+
+Prism, ORM, TypeScript, Next auth e muito mais.
+
+Todas elas estão nos projetos do curso também.
+
+Para fazer esse curso aqui tem alguns pré requisitos.
+
+Precisa saber HTML, CSS, JavaScript e React.
+
+Quanto mais contato tu teve com o React até aqui, melhor.
+
+O Next ele é baseado no React.
+
+É um framework que foi construído em cima do React de S.
+
+Então tu vem com bastante conhecimento do React, tu vai conseguir tirar muito proveito desse curso
+
+aqui.
+
+Mas se tu já criou algum projeto com React, já teve a introdução, tu também vai conseguir fazer o
+
+curso que tu vai fazer analogias, ligações aí entre as duas tecnologias.
+
+E ao longo do curso eu vou também te lembrando, te relembrando do que tem em comum para tu poder fazer
+
+as associações e tirar o máximo proveito desse material.
+
+Então, no fim desse curso aqui, tu vai estar apto a criar os teus próprios projetos com Next.
+
+Trabalhar em projetos já existentes, utilizando a tecnologia, independente da versão.
+
+Enfim, tu vai estar conseguindo aí desenvolver um next JS tranquilamente, sem nenhuma dúvida, e tá
+
+podendo agregar muito ao time de desenvolvimento que tu trabalha.
+
+E eu sou Matheus Batista, instrutor de programação com mais de 100.000 alunos.
+
+Eu programo há mais de dez anos e vou ser um instrutor aqui durante todo esse curso.
+
+Eu vou te acompanhar durante a tua jornada para que tu consiga realmente aprender essa ferramenta aí
+
+que está crescendo muito e com certeza vai dominar o mercado JavaScript.
+
+E ao adquirir esse curso aqui, vai ter acesso a uma equipe de suporte especializada.
+
+As atualizações do curso a gente sabe que o Next está em constante mudança e vai manter esse curso muito
+
+atualizado para que tu consiga estar a par das novidades do Next, seja no.
+
+15h16.
+
+E versões que virão.
+
+Também vai ter um certificado de conclusão e o acesso é vitalício.
+
+Ou seja, tu compra uma vez e tu vai ter acesso ao curso para sempre.
+
+Beleza, eu vou aproveitar aqui agora esse momento para também te mostrar o projeto de conclusão do
+
+curso.
+
+Vem comigo então, Esse cara que tu tá vendo é um next gen.
+
+É um projeto que a gente vai criar juntos desde o zero.
+
+Ele vai utilizar o Next auth como autenticação e ele é baseado no Instagram, como tu já deve ter conseguido
+
+ver aqui, né?
+
+Então a gente tem a estrutura de likes, a estrutura de comentários.
+
+A gente pode colocar aqui novos comentários na imagem, ele vai somando.
+
+A gente tem uma área de edição, de perfil, de criação, de postagem de minhas postagens.
+
+Tem vários recursos, uma aplicação super completa para conseguir colocar em prática tudo que tu aprendeu
+
+nesse curso aqui e também explorar novos caminhos que o NextGen te oferece.
+
+E antes de fechar o vídeo, eu também deixei uma aula aberta.
+
+Aqui embaixo tu pode acessar ela onde eu explico sessão por sessão que tu vai aprender todo o conteúdo
+
+do curso numa visão macro.
+
+Então eu aconselho a tu assistir ela também para entender qual que vai ser a tua jornada ao longo do
+
+curso, desde a primeira sessão até a finalização do curso que é a criação desse projeto Next que eu
+
+acabei de te mostrar.
+
+Mas se tu já se decidiu se tu quer aprender Next De verdade e de uma vez por todas, eu tô te esperando
+
+lá do outro lado para a gente poder trabalhar muito em next JS juntos e aproveitar toda essa evolução
+
+para depois sair daqui e já aplicar o Next nos teus projetos.
