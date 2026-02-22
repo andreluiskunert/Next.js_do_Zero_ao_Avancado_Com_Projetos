@@ -1,0 +1,167 @@
+A gente já falou bastante sobre vantagens na apresentação, mas vamos reforçar elas porque provavelmente
+
+em entrevistas ou até mesmo para fazer sentido numa argumentação técnica de decisão de tecnologia para
+
+um próximo projeto, Saber isso aqui vai fazer a diferença para vocês poderem se inteirar nas discussões
+
+e até estar agregando nelas.
+
+Então, acho muito importante a gente poder ter propriedade para falar no que o negócio é bom, já que
+
+a gente tá aprendendo ele, né?
+
+Não precisa só saber programar no Next, mas sim entender o ecossistema.
+
+Next.
+
+Beleza.
+
+Então, essa parte é muito importante.
+
+SEO e renderização no servidor o Next melhorar significamente o SEO ao renderizar a página do servidor,
+
+tornando o conteúdo acessível para motores de busca.
+
+É isso que faz o HTML ser lido pelo motor de busca em formato de texto, né?
+
+E não sei se vocês já tiveram essa experiência, mas quando a gente tem um spa, a gente faz o deploy
+
+dela, coloca no servidor e acessa.
+
+A gente não tem nada que está na home page.
+
+Por exemplo, no HTML a gente tem um JavaScript e um elemento root.
+
+E nesse elemento root é substituído pelo HTML que está dentro do JS.
+
+Tá?
+
+Isso não acontece no Next, ao contrário, é como se eu abrisse um HTML de fato e aí já vem tudo, todas
+
+as informações prontas, né?
+
+Se estivermos trabalhando com SSL, divisão automática de código, ele otimiza o tempo de carregamento
+
+ao dividir automaticamente o código em pacotes menores.
+
+Isso é performance.
+
+Importantíssimo.
+
+Carregando apenas o necessário para cada página.
+
+Como eu falei antes, não precisamos configurar, implementar isso.
+
+Talvez configurar alguma coisa para otimizar.
+
+Beleza, Mas a gente não precisa estar buscando isso depois.
+
+Já tá pronto?
+
+Tá.
+
+Que era comum nas aplicações de React.
+
+Pô, eu já tive tudo pronto, agora eu vou descobrir como vou colocar SSR.
+
+Agora vou descobrir como vou colocar meta tag nas páginas.
+
+Agora eu vou descobrir como fazer.
+
+Agora eu vou descobrir como eu vou colocar o esqueleto.
+
+Sabe, a pressão ficava pronta, mas não ficava.
+
+Então, aqui no Next a gente tem várias coisas que a gente teria que fazer, como eu falei no slide
+
+passado, né?
+
+Prontas para a gente poder só usar, tá?
+
+Estilização integrada isso aqui também é interessante.
+
+Galera, pode parecer não fazer diferença, mas ele já vem pronto para a gente poder utilizar o CSS
+
+puro.
+
+O The Wind Sass é fácil de integrar com outros outras libs, mas na hora da instalação a gente pode
+
+escolher algumas opções, o que abre o leque mais ainda, né?
+
+Porque também né?
+
+Só quem já fez sabe como é integrar o The Wind num React da vida, né?
+
+A gente tem que tá configurando aqui, tá colocando lá o arquivo de inicialização, né?
+
+E para poder gerar quando a gente está desenvolvendo, então não é.
+
+É simples, mas para quem tá começando assim, pode se confundir, pode errar.
+
+Então aqui já vem pronto, tá?
+
+Facilidade de configuração com sua abordagem de configuração zero, né?
+
+É o que tá na documentação Como é que se simplifica o processo de desenvolvimento, tornando o mais
+
+acessível e rápido?
+
+Quando vocês lerem a documentação eu até aconselho que leiam, tá?
+
+Mas tem várias etapas, por exemplo de cache, que é uma que eu lembro muito forte aqui, né?
+
+Ele fala que raramente você vai ter que precisar mexer em algo porque o Next já vem pronto para produção.
+
+Basicamente, Então a gente pode fazer uns umas leves mudanças, ajustes, mas aí não vai precisar perder
+
+muito tempo com isso.
+
+Então isso é interessante.
+
+Ele já vem pronto realmente à prova de bala para o negócio.
+
+Talvez a gente precisa ajustar alguma coisa para a nossa regra de negócio, mas essa questão de cara
+
+eu instalo, desenvolvo, faço deploy, já tá pronto.
+
+É muito forte no Next, tá?
+
+Ele permite a integração com APIs robustas no próprio projeto, facilitando a integração e comunicação
+
+com o front de back end.
+
+Então a gente pode estar utilizando essa abordagem de API e também as actions que eu coloquei aqui,
+
+que é o que veio no Next 14.
+
+E quando a gente constrói a aplicação toda full stack no Next, a gente vai ver isso, já que é o novo
+
+padrão que eles estão adotando aqui também no curso.
+
+E ajuda demais, né?
+
+Porque, cara, a gente tem tudo centralizado em um projeto só.
+
+Quem já trabalhou com Laravel tem inércia.
+
+Tem livro que é praticamente isso aqui, só que implementado em outras tecnologias em PHP.
+
+Aqui a gente tá falando de JS, então é bem poderoso.
+
+É algo que é um padrão muito forte lá fora, porque Laravel é bem utilizado fora do Brasil.
+
+E aqui a gente tá trazendo o JS, que é uma linguagem que o Brasil adotou.
+
+Então, tu ter essa facilidade de front back end numa aplicação só vai te ajudar muito também para eu
+
+não ter que, por exemplo, aprender uma outra linguagem numa API ou usar um outro frame que seja em
+
+Node, né?
+
+Para um back end então também baixa um pouco a curva de aprendizado, né?
+
+Então tá galera, essas são algumas das vantagens só para vocês poderem entender melhor.
+
+E são pontos que a gente vai ver ao longo do curso também.
+
+Bora agora sim criar nosso primeiro projetinho com Next.
