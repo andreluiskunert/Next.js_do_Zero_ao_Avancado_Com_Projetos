@@ -11,8 +11,10 @@ export default function Home() {
           
           Bem-vindo ao meu primeiro projeto em Next.js! Este é um exemplo de
           página inicial.
-          <marquee> Em breve minha aplicação com Next.js e Tailwind CSS!</marquee>
+          
         </p>
+        <h2> Explica sobre aplicações Next.js  </h2>
+          <marquee> Em breve minha aplicação com Next.js e Tailwind CSS!</marquee>
       </main>
     </div>
   );
