@@ -14,11 +14,14 @@ export default function Home() {
         {/* Aula02_Dados dinâmicos */}
         <h1>Acessar posts</h1>
         <Link href="/posts">Posts</Link> <br />
-        <hr />
-        <body>
-           aqui teremos corpo
 
-        </body>
+        <Link href="/exemplo?parametro=valor">Página com Parametro</Link>
+
+        <hr />
+          
+           <h1> aqui teremos corpo</h1>
+
+       
         <hr />
         <footer>
           <h1>Desenvolvido por ALKTECNO</h1>

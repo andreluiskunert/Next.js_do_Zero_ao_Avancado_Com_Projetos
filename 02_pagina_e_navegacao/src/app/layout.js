@@ -9,13 +9,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body className="antialiased">
-
-        <div style={{ background: "#f1f5f9", minHeight: "100vh", padding: "24px" }}>
+        <div style={{ minHeight: "100vh", padding: "24px" }}>
           <div
             style={{
               maxWidth: "1200px",
               margin: "0 auto",
-              background: "#fff",
               borderRadius: "12px",
               padding: "24px",
               boxShadow: "0 0 20px rgba(0,0,0,0.06)",
@@ -24,7 +22,6 @@ export default function RootLayout({ children }) {
             {children}
           </div>
         </div>
-
       </body>
     </html>
   );
