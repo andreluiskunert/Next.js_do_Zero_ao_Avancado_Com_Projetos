@@ -14,9 +14,10 @@ export default function Home() {
         {/* Aula02_Dados dinâmicos */}
         <h1>Acessar posts</h1>
         <Link href="/posts">Posts</Link> <br />
-
-        <Link href="/exemplo?parametro=valor">Página com Parametro</Link>
-
+         {/* Aula03_parametros na URL */}
+        <Link href="/exemplo?parametro=valor">Página com Parametro</Link> <br></br>
+        {/* Aula04_nested routes */}
+        <Link href="/products/categorias/roupas">Ir a categoria de Roupas </Link>
         <hr />
           
            <h1> aqui teremos corpo</h1>
