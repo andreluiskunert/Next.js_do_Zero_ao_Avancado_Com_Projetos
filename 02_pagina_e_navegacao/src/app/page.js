@@ -18,11 +18,10 @@ export default function Home() {
         <Link href="/exemplo?parametro=valor">Página com Parametro</Link> <br></br>
         {/* Aula04_nested routes */}
         <Link href="/products/categorias/roupas">Ir a categoria de Roupas </Link>
+        {/* Aula 7 - neste Layout  */}
+         <Link href="/dashboard">ir pra dashbo</Link>
         <hr />
-          
-           <h1> aqui teremos corpo</h1>
-
-       
+             
         <hr />
         <footer>
           <h1>Desenvolvido por ALKTECNO</h1>
