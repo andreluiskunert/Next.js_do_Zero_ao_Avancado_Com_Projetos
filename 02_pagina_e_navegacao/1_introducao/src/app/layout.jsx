@@ -30,11 +30,9 @@ export default function home({ children }) {
         <Header />
       
         
-        <Link href="/home/desenvolvedor-full-stack/Home/Cursos_Udemy/Next.js_do_Zero_ao_Avancado_Com_Projetos/Next.js_do_Zero_ao_Avancado_Com_Projetos/02_pagina_e_navegacao/1_introducao/src/app/page.jsx"><h1>Home</h1></Link>
-        <Link href="/sobre">Sobre</Link>
-        
-
-        <main>{children}</main>
+           
+        <main>
+          {children}</main>
 
         <Footer />
       </body>
