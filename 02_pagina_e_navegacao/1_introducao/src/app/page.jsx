@@ -9,6 +9,8 @@ export default function Home() {
      {/* Aula 02ª_dados dinamicos */}
      <h1>Acessar posts</h1>
      <Link href="/posts"> acessando..</Link>
+     {/* Aula 03_Params */}
+     <Link  href="/exemplo?parametro=ABC">Paginas com Parametros</Link>
 
     </main>
   );
