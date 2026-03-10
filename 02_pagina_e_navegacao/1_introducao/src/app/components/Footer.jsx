@@ -12,16 +12,15 @@ export default function Footer() {
         <div>
           <h3 className="text-sm font-semibold text-white/90">Links</h3>
           <ul className="mt-3 space-y-2 text-sm text-white/70">
-            <li><a className="hover:text-white" href="/">Home</a></li>
-            <li><a className="hover:text-white" href="/sobre">Sobre</a></li>
-            <li><a className="hover:text-white" href="/projetos">Projetos</a></li>
+            <li><a className="hover:text-white" href="https://www.linkedin.com/feed/">Linkedin</a></li>
+            <li><a className="hover:text-white" href="https://github.com/andreluiskunert">github</a></li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-sm font-semibold text-white/90">Contato</h3>
           <p className="mt-3 text-sm text-white/70">
-            E-mail: <span className="text-white/90">seuemail@exemplo.com</span>
+            E-mail: <span className="text-white/90">pesquisador036@gmail.com</span>
           </p>
           <p className="mt-2 text-xs text-white/50">
             © {new Date().getFullYear()} — Todos os direitos reservados.

@@ -12,7 +12,9 @@ export default function Home() {
      {/* Aula 03_Params */}
      <Link  href="/exemplo?parametro=ABC">Paginas com Parametros</Link>
      {/* Aua 04_nested routes */}
-    <Link href="/produtos/categorias/roupas">Ir a Categorias de Roupas </Link>
+    <Link href="/produtos/categorias/roupas">Ir a Categorias de Roupas </Link> <br />
+    {/* Aula 07_Nested Layout */}
+      <Link href="/dashboard">Dashboard </Link>
     </main>
   );
 }

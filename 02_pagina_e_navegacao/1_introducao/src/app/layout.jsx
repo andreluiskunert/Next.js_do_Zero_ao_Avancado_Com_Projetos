@@ -4,7 +4,6 @@ import Link from "next/link";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import SobrePage from "./sobre/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,7 +19,7 @@ export const metadata = {
   title: "Projeto em next_2026",
   description: "Projeto ALKTECNO",
 };
-
+// Aula05_Layout
 export default function home({ children }) {
   return (
     <html lang="pt-BR">
@@ -29,8 +28,8 @@ export default function home({ children }) {
       >
         <Header />
       
-        
-           
+      <h1> Estou no layoute</h1>
+           {/* Aula06_Components */}
         <main>
           {children}</main>
 
