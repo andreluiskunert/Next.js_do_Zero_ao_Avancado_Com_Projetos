@@ -27,6 +27,9 @@ export default function home({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}
       >
         <Header />
+        {/* Aula07_Linke Ativ */}
+        <nav />
+
       
       <h1> Estou no layoute</h1>
            {/* Aula06_Components */}
