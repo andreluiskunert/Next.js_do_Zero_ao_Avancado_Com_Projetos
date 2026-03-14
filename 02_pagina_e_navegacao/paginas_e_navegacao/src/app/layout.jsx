@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Footerpage from "./components/page";
+import Headerpage from "./components/cabecario/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,9 +24,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+           <Headerpage></Headerpage>
         <marquee> Bora codar com Next.js</marquee>
         {children}
      <marquee> Bora codar com Next.js</marquee>
+     <Footerpage></Footerpage>
       </body>
     </html>
   );
