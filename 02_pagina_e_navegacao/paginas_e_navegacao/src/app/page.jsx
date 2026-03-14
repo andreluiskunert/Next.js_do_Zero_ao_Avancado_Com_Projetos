@@ -15,6 +15,8 @@ export default function Home() {
       <Link href='/posts'>Posts</Link>
       {/* 3ª aula_parametros na URL */}
        <Link href="/exemplo">Pagina como Parametros </Link>
+       {/* 4ª Aula_Nestad Routes */}
+       <Link href="/produtos/categorias/roupas"> Ir a categoria de Roupas</Link>
       
       </main>
     </div>
