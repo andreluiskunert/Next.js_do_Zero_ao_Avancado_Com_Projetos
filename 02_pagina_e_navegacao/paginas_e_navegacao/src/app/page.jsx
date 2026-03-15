@@ -17,7 +17,8 @@ export default function Home() {
        <Link href="/exemplo">Pagina como Parametros </Link>
        {/* 4ª Aula_Nestad Routes */}
        <Link href="/produtos/categorias/roupas"> Ir a categoria de Roupas</Link>
-      
+       {/* 7ª Aula_Nested layout */}
+       <Link href="/dashboard"> Ir para dash</Link>
       </main>
     </div>
   );
