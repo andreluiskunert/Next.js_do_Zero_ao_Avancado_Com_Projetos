@@ -32,8 +32,9 @@ export default function RootLayout({ children }) {
         <marquee>Bora codar com Next.js</marquee>
         <h1>aqui ficar o Layout no Angular</h1>
         {/* 6ª Aula_components */}
-        <Footerpage />
+         <Footerpage />
       </body>
+     
     </html>
   );
 }
