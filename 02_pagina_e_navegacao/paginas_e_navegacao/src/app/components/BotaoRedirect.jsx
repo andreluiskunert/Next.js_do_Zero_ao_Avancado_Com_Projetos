@@ -4,9 +4,13 @@ import { useRouter } from 'next/navigation';
 
 const BotaoRedirect = () => {
   const router = useRouter();
+   function sendEmailAndRedice() {
+    //  envio Email
+    router.push("/dashboard")
+   }
   return (
     <div>
-   <button> Dashboard</button>
+   <button onClick={sendEmailAndRedice}> Finalizar processo </button>
     </div>
   )
 }
