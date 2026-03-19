@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+h1{
+  font-size: 20px;
+  color: beige;
+  background-color: #333;
+  padding: 20px;
+}
+marquee{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  padding-top: 10px 10px;
+  text-align: center;
+  font-size: 36px;
+}
