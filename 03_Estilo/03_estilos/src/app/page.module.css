@@ -1,0 +1,12 @@
+.heading_module {
+  color: blue;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: aqua;
+}
+.container p{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}

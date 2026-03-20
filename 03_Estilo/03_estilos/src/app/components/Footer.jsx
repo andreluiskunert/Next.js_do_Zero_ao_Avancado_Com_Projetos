@@ -1,11 +1,7 @@
-import React from 'react'
-
-const FooterPage = () => {
+export default function FooterPage() {
   return (
-    <div>
-         <p> Desenvolvido Por ALKTECNO_2026</p>
-    </div>
-  )
+    <footer className="w-full bg-gray-800 text-white text-center py-4">
+      <h1>Desenvolvido por ALKTECNO_2026</h1>
+    </footer>
+  );
 }
-
-export default FooterPage
