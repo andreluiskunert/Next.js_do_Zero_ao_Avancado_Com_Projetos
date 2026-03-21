@@ -1,5 +1,6 @@
 import FooterPage from "./components/Footer";
 import MyComponent from "./components/MyComponent";
+import Container from "./components/Container";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -18,6 +19,8 @@ export default function Home() {
         </div>
         {/* 3 TailWindf  */}
          <MyComponent></MyComponent>
+         {/* 4 Sass */}
+         <Container></Container>
       </main>
      
       <FooterPage />
