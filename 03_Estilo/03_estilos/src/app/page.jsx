@@ -2,6 +2,7 @@ import FooterPage from "./components/Footer";
 import MyComponent from "./components/MyComponent";
 import Container from "./components/Container";
 import styles from "./page.module.css";
+import Button from "./components/Button";
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
          <MyComponent></MyComponent>
          {/* 4 Sass */}
          <Container></Container>
+         {/* 5 SASS com CSS module */}
+         <Button></Button>
       </main>
      
       <FooterPage />
