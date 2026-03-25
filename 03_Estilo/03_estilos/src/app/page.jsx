@@ -3,6 +3,7 @@ import MyComponent from "./components/MyComponent";
 import Container from "./components/Container";
 import styles from "./page.module.css";
 import Button from "./components/Button";
+import CustomButton from "./components/CustomButton";
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
          <Container></Container>
          {/* 5 SASS com CSS module _Revisão_Segunda-feira,23/03/2026_De noite*/}
          <Button/>
+         {/* 6 Styled components */}
+         <CustomButton>Acesar</CustomButton>
       </main>
      
       <FooterPage />
