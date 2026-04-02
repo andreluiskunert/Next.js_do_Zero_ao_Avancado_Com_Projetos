@@ -1,9 +1,14 @@
 import React from 'react'
-
+import { db } from "../../../db"
+import { redirect } from "next/navigation"
 const TodoPage = () => {
   const addTodo = async(FormData)=>{
   "use server";
   console.log(FormData)
+  const titulo = formData.get("titulo")
+  const descricao = formData.get("descricao")
+  const status = "pendente"
+
   }
   return (
     <div className="max-w-md-auto mt-10">
