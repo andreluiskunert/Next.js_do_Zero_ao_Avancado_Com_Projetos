@@ -1,5 +1,4 @@
 import React from 'react'
-import { db } from "../../../db"
 import { redirect } from "next/navigation"
 const TodoPage = () => {
   const addTodo = async(FormData)=>{
