@@ -1,35 +1,35 @@
-import React from 'react'
-import { db } from '@/db'
-import { redirect } from 'next/navigation'
+import { db } from "@/db";
+import { redirect } from "next/navigation";
 
-const Todopage = () => {
-  const addTodo = async (formData) => {
+export default function TodoPage() {
+  async function addTodo(formData) {
     "use server";
 
     const titulo = formData.get("titulo");
     const descricao = formData.get("descricao");
     const status = "pendente";
 
-    const todo = await db.todo.create({
+    await db.todo.create({
       data: {
         titulo,
         descricao,
-        status
-      }
+        status,
+      },
     });
 
-    console.log(todo);
-
     redirect("/");
-  };
+  }
 
   return (
     <div className="max-w-md mx-auto mt-10">
-      <h1 className="text-2xl font-bold text-center m-6">
+      <h1 className="text-2xl font-bold text-center m-6 text-white">
         Criar nova tarefa
       </h1>
 
-      <form action={addTodo} className="flex flex-col gap-4 p-4 bg-white shadow-lg rounded-lg">
+      <form
+        action={addTodo}
+        className="flex flex-col gap-4 p-4 bg-white shadow-lg rounded-lg"
+      >
         <label
           htmlFor="titulo"
           className="block text-sm font-medium text-gray-700"
@@ -61,13 +61,11 @@ const Todopage = () => {
 
         <button
           type="submit"
-          className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+          className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600"
         >
           Criar Todo
         </button>
       </form>
     </div>
   );
-};
-
-export default Todopage;
+}
