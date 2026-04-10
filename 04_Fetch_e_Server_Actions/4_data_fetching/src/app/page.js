@@ -6,13 +6,15 @@ export default async function Home() {
 
   return (
     <main className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4 text-white">Todos!</h1>
+     <p> <marquee> bora revisão  </marquee>
+     </p>
+      <h1 className="text-2xl font-bold mb-4 text-white">Todas as funções!</h1>
 
-      <p className="text-white mb-2">Bora rever materia</p>
+      <p className="text-white mb-2">função</p>
 
-      <Link href="/todos/create" className="text-blue-400 underline">
+      {/* <Link href="/todos/create" className="text-blue-400 underline">
         Ir pra Todo
-      </Link>
+      </Link> */}
 
       <h2 className="text-2xl font-bold mt-4 mb-4 text-white">Todos</h2>
 
