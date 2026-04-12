@@ -5,8 +5,8 @@ const Checkbox = ({ checked }) => {
     <input
       type="checkbox"
       checked={checked}
-      onChange={(e) => e.target.form.requestSubmit()}
-      className="form-checkbox h-5 w-5"
+      onChange={(e) => e.currentTarget.form?.requestSubmit()}
+      className="h-5 w-5"
       style={{ marginTop: "0.5rem" }}
     />
   );
