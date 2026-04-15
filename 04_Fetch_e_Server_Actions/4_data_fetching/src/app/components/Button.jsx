@@ -1,7 +1,10 @@
-export default function Button({ children, className = "", ...props }) {
-  return (
-    <button className={className} {...props}>
-      {children}
-    </button>
-  );
+"use client";
+
+import { Children } from "react";
+
+const Button = ({Children}) =>{
+  return <button>
+    {Children}
+  </button>
 }
+export default Button;

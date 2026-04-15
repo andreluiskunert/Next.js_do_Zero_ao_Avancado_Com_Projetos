@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import React from 'react'
 
 const TodoShow = async ({ params }) => {
+  await new Promise((a) => setTimeout(a, 2000));
   const { id } = await params;
   const todoId = Number(id);
 

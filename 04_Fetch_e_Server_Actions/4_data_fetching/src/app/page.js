@@ -48,14 +48,10 @@ export default async function Home() {
               >
                 Editar
               </Link>
-
-              <form action={deleteTodo}>
-                <input type="hidden" name="id" value={todo.id} />
-                <Button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+              <Button>
                   Excluir
                 </Button>
-              </form>
-            </div>
+               </div>
           </div>
         ))}
       </div>
