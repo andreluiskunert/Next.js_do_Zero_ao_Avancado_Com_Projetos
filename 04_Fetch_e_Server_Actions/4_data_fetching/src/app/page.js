@@ -3,6 +3,7 @@ import Checkbox from "./components/Checkbox";
 import { db } from "@/db";
 import Link from "next/link";
 import { deleteTodo, toggleTodoStatus } from "@/actions";
+import { redirect } from "next/navigation";
 
 export default async function Home() {
   const todos = await db.todo.findMany();
