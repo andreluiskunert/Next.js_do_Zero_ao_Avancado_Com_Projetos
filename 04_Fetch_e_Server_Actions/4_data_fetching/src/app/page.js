@@ -48,11 +48,17 @@ export default async function Home() {
               >
                 Editar
               </Link>
-              {/* Quinta-feira,16/04/2026_de noite vou descansar_Revisarei Amanha _À noite...*/}
-              <Button>
+
+              <form action={deleteTodo}>
+                <input type="hidden" name="id" value={todo.id} />
+                <button
+                  type="submit"
+                  className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                >
                   Excluir
-                </Button>
-               </div>
+                </button>
+              </form>
+            </div>
           </div>
         ))}
       </div>
