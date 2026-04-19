@@ -43,3 +43,10 @@ export async function updateTodo(formData) {
 
   redirect("/");
 }
+export const findTodoById = async (id) =>{
+  const todo = db.todo.findFirst(
+   { where: {id}},
+  
+  );
+   return todo;
+}
