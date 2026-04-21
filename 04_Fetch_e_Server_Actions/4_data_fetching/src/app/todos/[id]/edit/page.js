@@ -1,21 +1,18 @@
-import { editTodo, findTodoById } from "@/actions";
-// import TodoForm from "@/components/TodoForm";
+import { findTodoById } from "@/actions";
+import { notFound } from "next/navigation";
 
-// import { notFound } from "next/navigation";
+export default async function TodoEdit({ params }) {
+  const { id } = await params;
+  const todoId = parseInt(id, 10);
 
-export default async function TodoEdit(props) {
-  const id = parseInt(props.params.id);
-
-  const todo = await findTodoById(id);
+  const todo = await findTodoById(todoId);
 
   if (!todo) return notFound();
 
   return (
-    <div className="max-w-md mx-auto mt-10">
-      <h1 className="text-2xl font-bold text-center mb-6">
-        Editando: {todo.titulo}
-      </h1>
-      <TodoForm todo={todo} />
+    <div>
+      <h1>Editar Todo</h1>
+      <p>{todo.titulo}</p>
     </div>
   );
 }

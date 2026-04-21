@@ -1,5 +1,3 @@
-// // Sabádo 18/04/2026_De tarde
-
 "use server";
 
 import { db } from "@/db";
@@ -7,14 +5,13 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 
 export async function deleteTodo(formData) {
-  const id = parseInt(formData.get("id"));
+  const id = parseInt(formData.get("id"), 10);
 
   await db.todo.delete({
     where: { id },
   });
 
   revalidatePath("/");
-
   redirect("/");
 }
 
@@ -23,7 +20,7 @@ export async function addTodo(formData) {
   const descricao = formData.get("descricao");
   const status = "pendente";
 
-  const todo = await db.todo.create({
+  await db.todo.create({
     data: {
       titulo,
       descricao,
@@ -31,16 +28,12 @@ export async function addTodo(formData) {
     },
   });
 
-  console.log(todo);
-
+  revalidatePath("/");
   redirect("/");
 }
 
 export async function findTodoById(id) {
-  // 11 - erro backend - error.js
-  // throw new Error("Ops!");
-
-  const todo = await db.todo.findFirst({
+  const todo = await db.todo.findUnique({
     where: { id },
   });
 
@@ -48,7 +41,18 @@ export async function findTodoById(id) {
 }
 
 export async function updateTodo(formState, formData) {
-  const id = formData.get("id")
-   const titulo = formData.get("titulo");
-  const descricao = formData.get("descricao")
+  const id = parseInt(formData.get("id"), 10);
+  const titulo = formData.get("titulo");
+  const descricao = formData.get("descricao");
+
+  await db.todo.update({
+    where: { id },
+    data: {
+      titulo,
+      descricao,
+    },
+  });
+
+  revalidatePath("/");
+  redirect("/");
 }
