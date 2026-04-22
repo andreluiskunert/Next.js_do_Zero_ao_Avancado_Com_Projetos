@@ -1,13 +1,15 @@
 "use client"
+import { updateTodo } from '@/actions';
+import { updateTag } from 'next/cache';
 import React from 'react';
 import { useFormState } from 'react-dom';
 
 const TodoForm = () => {
-    const [formState, action] = useFormState(fn, {errors: ""});
+    const [formState, action] = useFormState(updateTodo, {errors: ""});
 
   return (
           <form
-        action={addTodo}
+        action={action}
         className="flex flex-col gap-4 p-4 bg-white shadow-lg rounded-lg"
       >
         <label
@@ -22,6 +24,7 @@ const TodoForm = () => {
             placeholder="Insira o título"
             required
             className="mt-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 w-full"
+          defaultValue={TodoForm.titulo}
           />
         </label>
 
@@ -36,7 +39,8 @@ const TodoForm = () => {
             placeholder="Descreva a tarefa"
             required
             className="mt-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 w-full h-32 resize-none"
-          ></textarea>
+            defaultValue={TodoForm.descricao}
+        ></textarea>
         </label>
 
         <button
